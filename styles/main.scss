@@ -1,0 +1,166 @@
+html,body{
+    margin:0;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+    &__encab{
+     background: #F2ADAA;
+     display: flex;
+     flex-direction: column;
+     flex-basis: 530px;
+     justify-content: center;
+     align-items: center;
+
+     &__logo{
+      
+        justify-content: center;
+        align-items: center; 
+        align-content: center;
+        margin-right: 260px;
+        
+
+        &__img1{
+     
+            width: 255.67px;
+            height: 344.71px;
+        
+            
+        }
+
+        &__img2{
+            width: 452px;
+            height: 105px;
+            margin-bottom: 100px;
+        }
+     }
+
+     &__nav{
+       display:flex;
+        
+        
+        &__link{
+            text-decoration: none;
+            margin-right: 25px;
+            font-family: 'Teko', sans-serif;
+           
+            color: #302F2F;
+            font-size: 24px;
+        }
+
+     }
+
+    }
+    &__landing{
+
+        display:flex;
+        width:100%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+
+        &__content{
+         
+            display: flex;
+            margin-top:50px;
+            margin-right: 100px;
+            width:60%;
+            height: 450px;  
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+
+           
+              
+        }
+
+        &__txt{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        &__titulo{
+         font-family:'Montserrat', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+
+        }
+
+        &__name{
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        }
+
+        &__img{
+            margin-left:100px;        
+            display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+          &__2{
+              margin-left: 15px;
+            display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+         
+        &__1{
+            margin-bottom: 15px;
+
+        }
+        }
+        }
+
+     }
+
+     &__about-us{
+         background: #EF7F7B;
+         width:100%;
+         display:flex;
+      
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+         &__content{
+            display: flex;
+           
+            width:60%;
+            
+        
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+         }
+
+         &__titulo{
+           
+            font-family: 'Teko', sans-serif;
+            font-size: 30px;
+            text-align: right;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+         }
+
+
+
+     }
+
+}

@@ -41,7 +41,7 @@ html, body {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-right: 260px;
+  margin-right: 150px;
 }
 
 .app__encab__logo__img1 {
@@ -89,8 +89,7 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
-  margin-right: 100px;
-  width: 60%;
+  width: 80%;
   height: 450px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -199,21 +198,21 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 60%;
+  width: 80%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .app__about-us__titulo {
+  width: 80%;
+  text-align: right;
   font-family: 'Teko', sans-serif;
   font-size: 30px;
-  text-align: right;
+  margin-left: 400px;
   letter-spacing: 0.08em;
   color: #FFFFFF;
 }

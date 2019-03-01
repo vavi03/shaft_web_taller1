@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shaft Animation Studio</title>
-    <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Nunito|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/libs/swiper.css">
 </head>
 
 <body>
@@ -15,7 +16,8 @@
     <div class="app">
         <header class="app__encab">
             <div class="app__encab__logo">
-                <img src="./img/psj_encab.png" alt="" class="app__encab__logo__img1">
+                <div id="headerImg" class="app__encab__logo-contParallax">
+                    <img data-depth="0.3" src="./img/psj_encab.png" alt="" class="app__encab__logo-contParallax__img1"></div>
                 <img src="./img/logo.png" alt="" class="app__encab__logo__img2">
             </div>
             <nav class="app__encab__nav">
@@ -30,28 +32,69 @@
 
         <section class="app__landing">
             <div class="app__landing__content">
-            <div class="app__landing__txt">
-                <h3 class="app__landing__txt__titulo">New products <br> from your <br> favorites series!</h3>
-                <img class="app__landing__txt__icon"src="./img/icon.svg" alt="">
-                <h4 class="app__landing__txt__name">OFFICIAL SHOP</h4>
-                <input class="app__landing__txt__btn" type="button" value="Go now!">
-            </div>
-            <div class="app__landing__img">
-                <img class="app__landing__img__1" src="./img/img1.png" alt="">
-                <div class="app__landing__img__2">
-                    <img class="app__landing__img__2__1" src="./img/img2.png" alt="">
-                    <img class="app__landing__img__2__2" src="./img/img3.png" alt="">
+                <div class="app__landing__txt">
+                    <h3 class="app__landing__txt__titulo">New products <br> from your <br> favorites series!</h3>
+                    <img class="app__landing__txt__icon" src="./img/icon.svg" alt="">
+                    <h4 class="app__landing__txt__name">OFFICIAL SHOP</h4>
+                    <a class="app__landing__txt__btn" href="#">Go Now!</a>
+                </div>
+                <div class="app__landing__img">
+                    <img class="app__landing__img__1" src="./img/img1.png" alt="">
+                    <div class="app__landing__img__2">
+                        <img class="app__landing__img__2__1" src="./img/img2.png" alt="">
+                        <img class="app__landing__img__2__2" src="./img/img3.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
 
         </section>
 
         <section class="app__about-us">
 
             <div class="app__about-us__content">
-            <h1 class="app__about-us__titulo">About us</h1>
-        </div>
+                <div class="app__about-us__content__contTitle">
+                    <h1 class="app__about-us__content__contTitle__titulo">About us</h1>
+                </div>
+                <!-- Swiper -->
+                <div class="app__about-us__content__swiperContainer swiper-container">
+                    <div class="app__about-us__content__swiperContainer-wrapper swiper-wrapper">
+                        <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide">
+
+                            <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1">
+                                <h2 class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-titulo">Birth</h2>
+                                <p class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-txt">
+                                    Nearly 40 years since its founding in 1975, Shaft Co., Ltd.
+                                    He has been mainly dedicated to the creation of creative works and personnel as an
+                                    animation studio.</p>
+
+                            </div>
+                        </div>
+                        <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide">
+                            <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content2">
+                                <h2 class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-titulo">Goal</h2>
+                                <p class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-txt">
+                                    As a company that continues to challenge creative work in the future, We would like
+                                    to move forward so that we can offer jobs that can be enjoyed by animation fans.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide">
+                            <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content3">
+                                <h2 class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-titulo">Value</h2>
+                                <p class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide__content1-txt">
+
+                                    As animation is accepted as a proud culture of Japan,
+                                    we are rapidly changing from analog production of paper and film to digital
+                                    production, mainly for PC.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
 
 
         </section>
@@ -62,7 +105,9 @@
                 <div class="app__events__evento__txt">
                     <h2 class="app__events__evento__txt__titulo">Evento</h2>
                     <h3 class="app__events__evento__txt__fecha"></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugit quas maxime, eos temporibus, eligendi enim veritatis dolore consectetur praesentium delectus cum! Enim, officiis quasi. Quod, vero. Dignissimos, nesciunt doloribus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugit quas maxime, eos
+                        temporibus, eligendi enim veritatis dolore consectetur praesentium delectus cum! Enim, officiis
+                        quasi. Quod, vero. Dignissimos, nesciunt doloribus.</p>
                     <a href="#">GO</a>
 
                 </div>
@@ -88,7 +133,13 @@
     </div>
 
 
+    <!--data js-->
+    <script src="/js/libs/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
+
+    <!--your code-->
+    <script src="/js/main.js"></script>
 
 </body>
 

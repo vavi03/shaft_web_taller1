@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shaft Animation Studio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Nunito:300,400|Teko" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/libs/swiper.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -56,7 +56,7 @@
                     <h1 class="app__about-us__content__contTitle__titulo">About us</h1>
                 </div>
                 <!-- Swiper -->
-                <div class="app__about-us__content__swiperContainer swiper-container">
+                <div class="app__about-us__content__swiperContainer swiper-container swiperAboutUs">
                     <div class="app__about-us__content__swiperContainer-wrapper swiper-wrapper">
                         <div class="app__about-us__content__swiperContainer-wrapper-slide swiper-slide">
 
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination swiperAboutUs-pagination"></div>
                 </div>
             </div>
 
@@ -107,18 +107,52 @@
         </section>
 
         <section class="app__events">
-            <h1 class="app__events__titulo">Events</h1>
-            <div class="app__events__evento">
-                <div class="app__events__evento__txt">
-                    <h2 class="app__events__evento__txt__titulo">Evento</h2>
-                    <h3 class="app__events__evento__txt__fecha"></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugit quas maxime, eos
-                        temporibus, eligendi enim veritatis dolore consectetur praesentium delectus cum! Enim, officiis
-                        quasi. Quod, vero. Dignissimos, nesciunt doloribus.</p>
-                    <a href="#">GO</a>
+            <div class="app__events__title">
+                <h1 class="app__events__title__titulo">Events</h1>
+            </div>
+            <!-- Swiper -->
+
+            <div class="app__events__contEventos swiper-container swiperEvents">
+
+                <div class="app__events__contEventos-wrapper swiper-wrapper">
+
+                    <div class="app__events__contEventos-wrapper-evento swiper-slide">
+                        <div class="app__events__contEventos-wrapper-evento__txt">
+
+                            <h2 class="app__events__contEventos-wrapper-evento__txt__titulo">Madogatari Exhibition</h2>
+                            <h3 class="app__events__contEventos-wrapper-evento__txt__fecha">April 5-10/2019</h3>
+                            <p class="app__events__contEventos-wrapper-evento__txt__descrip">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Eaque fugit quas maxime, eos
+                                temporibus, eligendi enim veritatis dolore consectetur praesentium delectus cum! Enim,
+                                officiis
+                                quasi. Quod, vero. Dignissimos, nesciunt doloribus.</p>
+                            <a href="#">GO</a>
+
+                        </div>
+                        <img src="./img/event1.png" alt="">
+                    </div>
+
+
+                    <div class="app__events__contEventos-wrapper-evento swiper-slide">
+                        <div class="app__events__contEventos-wrapper-evento__txt">
+
+                            <h2 class="app__events__contEventos-wrapper-evento__txt__titulo">Madogatari Exhibition</h2>
+                            <h3 class="app__events__contEventos-wrapper-evento__txt__fecha">April 5-10/2019</h3>
+                            <p class="app__events__contEventos-wrapper-evento__txt__descrip">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Eaque fugit quas maxime, eos
+                                temporibus, eligendi enim veritatis dolore consectetur praesentium delectus cum! Enim,
+                                officiis
+                                quasi. Quod, vero. Dignissimos, nesciunt doloribus.</p>
+                            <a href="#">GO</a>
+
+                        </div>
+                        <img src="./img/event1.png" alt="">
+                    </div>
 
                 </div>
-            </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiperEventsPagination"></div>
         </section>
 
         <section class="app__top-works">

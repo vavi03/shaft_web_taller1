@@ -73,13 +73,7 @@
   margin-bottom: 100px;
 }
 
-.app__encab__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.app__encab__nav__link {
+.app__encab__link {
   text-decoration: none;
   margin-right: 25px;
   font-family: "Teko", sans-serif;
@@ -149,7 +143,7 @@
           align-items: center;
 }
 
-.app__landing__txt__titulo {
+.app__landing__titulo {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-align: center;
@@ -158,7 +152,7 @@
   color: #898787;
 }
 
-.app__landing__txt__name {
+.app__landing__name {
   font-family: "Nunito", sans-serif;
   margin-top: 10px;
   font-size: 14px;
@@ -167,7 +161,7 @@
   margin-bottom: 30px;
 }
 
-.app__landing__txt__btn {
+.app__landing__btn {
   font-family: "Montserrat", sans-serif;
   color: #2d2d2d;
   font-size: 14px;
@@ -179,7 +173,7 @@
   transition: .1s all ease-in-out;
 }
 
-.app__landing__txt__btn:hover {
+.app__landing__btn:hover {
   background-color: #e0f6a6;
 }
 
@@ -221,6 +215,15 @@
 
 .app__landing__img__2__1 {
   margin-bottom: 15px;
+  height: 128.84px;
+}
+
+.app__landing__img__2__2 {
+  height: 128.84px;
+}
+
+.app__landing__img__1 {
+  height: 275.57px;
 }
 
 .app__about-us {
@@ -265,7 +268,7 @@
           align-items: flex-start;
 }
 
-.app__about-us__content__contTitle {
+.app__about-us__contTitle {
   width: 100%;
   height: auto;
   -ms-flex-negative: 0;
@@ -289,15 +292,7 @@
           align-items: flex-end;
 }
 
-.app__about-us__content__contTitle__titulo {
-  text-align: right;
-  font-family: "Teko", sans-serif;
-  font-size: 30px;
-  letter-spacing: 0.08em;
-  color: #fafafa;
-}
-
-.app__about-us__content__contTitle::after {
+.app__about-us__contTitle::after {
   content: '';
   width: 35px;
   height: 3px;
@@ -309,18 +304,26 @@
       flex-shrink: 0;
 }
 
-.app__about-us__content__swiperContainer {
+.app__about-us__titulo {
+  text-align: right;
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.08em;
+  color: #fafafa;
+}
+
+.app__about-us__swiperContainer {
   width: 100%;
   height: 450px;
   position: relative;
 }
 
-.app__about-us__content__swiperContainer-wrapper {
+.app__about-us__wrapper {
   width: 100%;
   height: 100%;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide {
+.app__about-us__slide {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -337,7 +340,7 @@
   padding-bottom: 20px;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content1 {
+.app__about-us__content1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,14 +361,14 @@
   width: 400px;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content1__cont__titulo {
+.app__about-us__content1__cont__titulo {
   font-family: "Teko", sans-serif;
   font-size: 24px;
   color: #fafafa;
   letter-spacing: 0.08em;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content1__cont::after {
+.app__about-us__content1__cont::after {
   content: '';
   width: 35px;
   height: 3px;
@@ -377,7 +380,7 @@
       flex-shrink: 0;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content1__txt {
+.app__about-us__content1__txt {
   padding-top: 10px;
   font-family: "Nunito", sans-serif;
   text-align: left;
@@ -387,7 +390,7 @@
   color: #fafafa;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content2 {
+.app__about-us__content2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,7 +411,7 @@
   width: 400px;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content2__cont {
+.app__about-us__content2__cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,7 +426,7 @@
           align-items: center;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content2__cont__titulo {
+.app__about-us__content2__cont__titulo {
   font-family: "Teko", sans-serif;
   font-size: 24px;
   color: #fafafa;
@@ -431,7 +434,7 @@
   text-align: center;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content2__cont::after {
+.app__about-us__content2__cont::after {
   content: '';
   width: 35px;
   height: 3px;
@@ -443,7 +446,7 @@
       flex-shrink: 0;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content2__txt {
+.app__about-us__content2__txt {
   padding-top: 10px;
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -454,7 +457,7 @@
   padding-right: 20px;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content3 {
+.app__about-us__content3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,7 +478,7 @@
   width: 400px;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content3__cont {
+.app__about-us__content3__cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,7 +491,7 @@
           align-items: flex-end;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content3__cont__titulo {
+.app__about-us__content3__cont__titulo {
   font-family: "Teko", sans-serif;
   font-size: 24px;
   color: #fafafa;
@@ -496,7 +499,7 @@
   text-align: center;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content3__cont::after {
+.app__about-us__content3__cont::after {
   content: '';
   width: 35px;
   height: 3px;
@@ -508,7 +511,7 @@
       flex-shrink: 0;
 }
 
-.app__about-us__content__swiperContainer-wrapper-slide__content3__txt {
+.app__about-us__content3__txt {
   padding-top: 10px;
   font-family: "Nunito", sans-serif;
   text-align: right;
@@ -518,7 +521,7 @@
   color: #fafafa;
 }
 
-.app__about-us__content__swiperContainer .swiper-pagination-bullet-active {
+.app__about-us .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fafafa;
 }
@@ -567,14 +570,6 @@
   margin-bottom: 100px;
 }
 
-.app__events__title__titulo {
-  font-family: "Teko", sans-serif;
-  font-size: 30px;
-  color: #2d2d2d;
-  letter-spacing: 0.08em;
-  text-align: center;
-}
-
 .app__events__title::after {
   content: '';
   width: 35px;
@@ -585,6 +580,14 @@
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.app__events__titulo {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  color: #2d2d2d;
+  letter-spacing: 0.08em;
+  text-align: center;
 }
 
 .app__events__contEventos {
@@ -609,14 +612,14 @@
   height: 500px;
 }
 
-.app__events__contEventos-wrapper {
-  width: 97%;
+.app__events__wrapper {
+  width: 95%;
   height: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 
-.app__events__contEventos-wrapper-evento {
+.app__events__evento {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -638,7 +641,7 @@
       flex-shrink: 0;
 }
 
-.app__events__contEventos-wrapper-evento__txt {
+.app__events__txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -657,32 +660,71 @@
           align-items: flex-start;
 }
 
-.app__events__contEventos-wrapper-evento__txt__titulo {
+.app__events__tituloEvento {
   font-family: "Teko", sans-serif;
   font-size: 24px;
   color: #2d2d2d;
   letter-spacing: 0.08em;
 }
 
-.app__events__contEventos-wrapper-evento__txt__fecha {
+.app__events__fecha {
   font-family: "Teko", sans-serif;
   font-size: 18px;
   color: #898787;
   letter-spacing: 0.08em;
 }
 
-.app__events__contEventos-wrapper-evento__txt__descrip {
+.app__events__descrip {
   font-family: "Teko", sans-serif;
   font-size: 20px;
   color: #2d2d2d;
   letter-spacing: 0.08em;
 }
 
-.app__events__contEventos-wrapper-evento img {
+.app__events__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: 15px;
+}
+
+.app__events__link::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background-color: #EF7F7B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.app__events__Go {
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+  color: #EF7F7B;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.app__events img {
   width: 500px;
 }
 
-.app__events__contEventos .swiper-pagination {
+.app__events .swiper-pagination {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   right: 0;
@@ -704,7 +746,7 @@
   min-height: auto;
 }
 
-.app__events__contEventos .swiper-pagination-bullet-active {
+.app__events .swiper-pagination-bullet-active {
   opacity: 1;
   background: #EF7F7B;
 }
@@ -792,7 +834,7 @@
 .app__contact-us__img {
   width: 180px;
   height: 252px;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 .app__contact-us__content {

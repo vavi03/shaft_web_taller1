@@ -563,5 +563,182 @@ $thirdFont: 'Nunito', sans-serif;
         
         
     }
+
+    &__contact-us{
+        background: $mainColor;
+        width: 100%;
+        display: flex;
+        height: 320px;      
+        flex-shrink: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-end;  
+   
+       
+       
+
+       &__container{
+        display: flex;
+        width:$margen;
+        
+        flex-direction: row;
+        
+        justify-content: space-between;
+        align-content: flex-end;
+        align-items: flex-end;  
+        position: relative;
+   
+       
+       }
+
+       &__title{
+        flex-shrink: 0;    
+        display: flex;
+        flex-direction: column;      
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+       }
+
+       &__titulo{
+        text-align: left;
+        font-family: $mainFont;
+        font-size: 30px;
+        letter-spacing: 0.08em;
+        color: $whiteColor;
+
+        &::after{
+            content: '';
+            width: 35px;
+            height: 3px;
+            background-color: $whiteColor;
+            display: flex;
+            flex-shrink: 0;
+        }
+        
+       }
+        &__img{
+            width: 180px;
+        height: 252px;
+        margin-left:250px;
+        }
+
+        &__content{
+        background-color: $whiteColor;
+        display: flex;
+     
+        flex-direction: column;
+        justify-content: center;
+    
+        width: 326px;
+        height: 277px;
+        padding:25px;
+       // position: absolute;
+        margin-top:50px;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+        }
+
+       
+        &__email{
+            font-family: $thirdFont;
+            font-weight: 400;
+            font-size: 12px;
+        letter-spacing: 0.05em;
+        color: $blackColor;
+        }
+
+        &__espacio-email{
+            margin-top:5px;
+            width:100%;
+            border-top:0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid  $blackColor;
+            background-color: $whiteColor;
+        }
+
+        &__message{
+            margin-top:20px;
+        }
+
+        &__msg{
+            font-family: $thirdFont;
+            font-weight: 400;
+            font-size: 12px;
+        letter-spacing: 0.05em;
+        color: $blackColor;
+        }
+
+        &__espacio-msg{
+            margin-top:5px;
+            border: 1px solid $blackColor;
+            box-sizing: border-box;
+            width: 100%;
+            height: 90.44px;
+            background-color: $whiteColor;
+        }
+
+        &__btn{
+            margin-top:20px;
+            font-family: $secondFont;
+                color: $blackColor;
+                font-size: 14px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                text-decoration: none;
+                background-color: $greenColor;
+                
+                padding: 6px 10px;
+                width:84px;
+                transition: .1s all ease-in-out;
+                
+                &:hover{
+                    background-color: lighten($greenColor, 20%)
+                }
+        }
+
+       
+
+
+
+    }
+
+    &__footer{
+        width: 100%;
+        display: flex;   
+        flex-shrink: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;  
+        height:250px;
+
+        &__content{
+            display: flex;
+            width:$margen;     
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-content:space-between;
+           
+           
+        }
+
+        &__redes{
+            width: 20px;
+            height: 84px;
+        }
+
+        &__link{
+        font-family: $mainFont;
+        font-size: 16px;
+        text-align: right;
+        letter-spacing: 0.08em;
+        
+        color: $grayColor;
+        }
+
+
+    }
     
 }

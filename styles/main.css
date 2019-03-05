@@ -779,6 +779,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -834,7 +836,12 @@
 .contact-us__img {
   width: 180px;
   height: 252px;
-  margin-left: 200px;
+}
+
+.contact-us__form {
+  width: 326px;
+  height: 277px;
+  position: relative;
 }
 
 .contact-us__content {
@@ -842,6 +849,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -849,12 +858,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 326px;
-  height: 277px;
+  width: 100%;
+  height: 100%;
   padding: 25px;
-  margin-top: 50px;
+  position: absolute;
   -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  bottom: -50px;
 }
 
 .contact-us__email {
@@ -964,5 +974,39 @@
   letter-spacing: 0.08em;
   font-weight: 300;
   color: #898787;
+}
+
+@media (max-width: 900px) {
+  .events__contEventos {
+    height: 700px;
+  }
+  .events__evento {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .events__evento__txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .events__evento__img {
+    width: 500px;
+    margin-top: -50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

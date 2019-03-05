@@ -25,8 +25,8 @@ sans-serif;
     width: 100%;
     align-content: center;
     align-items: center;
-
-    &__encab {
+}
+    .encab {
         background: $mainColor;
         display: flex;
         flex-direction: column;
@@ -80,7 +80,7 @@ sans-serif;
 
     }
 
-    &__landing {
+    .landing {
 
         display: flex;
         width: 100%;
@@ -192,7 +192,7 @@ sans-serif;
 
     }
 
-    &__about-us {
+    .about-us {
         background: $mainColor;
         width: 100%;
         display: flex;
@@ -425,7 +425,7 @@ sans-serif;
 
     }
 
-    &__events {
+    .events {
 
         width: 100%;
         height: auto;
@@ -570,7 +570,7 @@ sans-serif;
             text-decoration: none;
         }
 
-        img {
+        &__img {
             width: 500px;
 
         }
@@ -606,7 +606,7 @@ sans-serif;
 
     }
 
-    &__contact-us {
+   .contact-us {
         background: $mainColor;
         width: 100%;
         display: flex;
@@ -744,7 +744,7 @@ sans-serif;
 
     }
 
-    &__footer {
+    .footer {
         width: 100%;
         display: flex;
         flex-shrink: 0;
@@ -774,11 +774,10 @@ sans-serif;
             font-size: 16px;
             text-align: right;
             letter-spacing: 0.08em;
-
+            font-weight: 300;
             color: $grayColor;
         }
 
 
     }
 
-}

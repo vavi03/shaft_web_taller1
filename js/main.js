@@ -22,7 +22,7 @@ var swiperEvents = new Swiper('.swiperEvents', {
 
 
 //parallax header img
-var headerImg = document.getElementById('headerImg');
+var headerImg = document.getElementById('parallax');
 var parallaxInstance = new Parallax(headerImg);
 
 
@@ -98,7 +98,7 @@ function createButton(s){
 
 
 var arraySeries = document.querySelectorAll('.top-works__serie');
-var contenidoSeries= document.querySelectorAll('.content__informacionSerie');
+var contenidoSeries= document.querySelectorAll('.top-works__informacionSerie');
 
 function recorrerSeries(serie, index){
   if(index==0){
@@ -110,7 +110,8 @@ function mostrarContenido(){
    contenidoSeries.forEach(function(content){
       content.style.display='none';
    });
-   contenidoSeries[index].style.display='block'; 
+   contenidoSeries[index].style.display='flex'; 
+  
   console.log("holi");
 }
 

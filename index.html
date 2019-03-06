@@ -8,6 +8,7 @@
     <title>Shaft Animation Studio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Nunito:300,400|Teko" rel="stylesheet">
     <link rel="stylesheet" href="./styles/libs/swiper.css">
+    <link rel="stylesheet" href="./styles/libs/hover.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
@@ -22,10 +23,10 @@
                 <img src="./img/logo.png" alt="" class="encab__logo__img2">
             </div>
             <nav class="encab__nav">
-                <a class="encab__link" href="#">About us</a>
-                <a class="encab__link" href="#">Top Works</a>
-                <a class="encab__link" href="#">Contact</a>
-                <a class="encab__link" href="#">Events</a>
+                <a class="encab__link hvr-underline-from-center" href="#">About us</a>
+                <a class="encab__link hvr-underline-from-center" href="#">Top Works</a>
+                <a class="encab__link hvr-underline-from-center" href="#">Contact</a>
+                <a class="encab__link hvr-underline-from-center" href="#">Events</a>
 
             </nav>
 
@@ -123,13 +124,35 @@
                             <h2 class="events__tituloEvento">Madogatari Exhibition</h2>
                             <h3 class="events__fecha">April 5-10/2019</h3>
                             <p class="events__descrip">
-                                    To celebrate its 40th anniversary, Japanese animation studio Shaft, Inc. is creating an art exhibition called "Madogatari" that combines two of their most popular anime properties: Puella Magi Madoka Magica and the Monogatari series (Bakemonogatari, Nisemonogatari, etc.).</p>
+                                To celebrate its 40th anniversary, Japanese animation studio Shaft, Inc. is creating an
+                                art exhibition called "Madogatari" that combines two of their most popular anime
+                                properties: Puella Magi Madoka Magica and the Monogatari series (Bakemonogatari,
+                                Nisemonogatari, etc.).</p>
                             <div class="events__link">
                                 <a class="events__Go" href="#">GO</a>
                             </div>
 
                         </div>
                         <img src="./img/event1.png" alt="" class="events__img">
+                    </div>
+
+                    <div class="events__evento swiper-slide">
+                        <div class="events__txt">
+                            <h2 class="events__tituloEvento">3-Gatsu No Lion: Official Cafe Opens in Marunouchi, Tokyo</h2>
+                            <h3 class="events__fecha">May 15/2019</h3>
+                            <p class="events__descrip">
+                                An official limited-time cafe of 3-Gatsu No Lion has opened its doors in Marunouchi
+                                reading style cafe (Chiyoda district, Tokyo).
+                                <br>
+                                The cafe’s interesting interior decoration was created in such a way so that customers
+                                can fully enjoy the work’s worldview. There is an original illustration by the anime’s
+                                character designer Nobuhiro Sugiyama at the front entrance.</p>
+                            <div class="events__link">
+                                <a class="events__Go" href="#">GO</a>
+                            </div>
+
+                        </div>
+                        <img src="./img/event2.jpg" alt="" class="events__img">
                     </div>
 
 
@@ -150,34 +173,28 @@
             <div class="top-works__container">
 
                 <div id="listSeries" class="top-works__list">
+
                     <div class="top-works__element">
                         <h3 class="top-works__year">2018</h3>
                     </div>
-                    <div class="top-works__serie">
-                        <div class="top-works__fondoVerde">
-                            <h3 class="top-works__name">FATE/Extra: Last Encore</h3>
-                        </div>
 
+                    <div class="top-works__serie hvr-bounce-to-right">
+                        <h3 class="top-works__name">FATE/Extra: Last Encore</h3>
 
                     </div>
 
-
                     <div class="top-works__element">
-                            <h3 class="top-works__year">2017</h3>
-                        </div>
+                        <h3 class="top-works__year">2017</h3>
+                    </div>
 
-                    <div class="top-works__serie">
-                            <div class="top-works__fondoVerde">
+                    <div class="top-works__serie hvr-bounce-to-right">
                         <h3 class="top-works__name">March comes in like a lion</h3>
-                        </div>
                     </div>
                     <div class="top-works__element">
-                            <h3 class="top-works__year">2014</h3>
-                        </div>
-                    <div class="top-works__serie">
-                            <div class="top-works__fondoVerde">
+                        <h3 class="top-works__year">2014</h3>
+                    </div>
+                    <div class="top-works__serie hvr-bounce-to-right">
                         <h3 class="top-works__name">Mekakucity Actors</h3>
-                        </div>
                     </div>
 
 
@@ -211,9 +228,9 @@
                             </p>
                         </div>
 
-                        <div class="top-works__fondoImg">
-                            <img src="./img/series/fate.jpg" alt="" class="top-works__imagen">
-                        </div>
+
+                        <img src="./img/series/fate.jpg" alt="" class="top-works__imagen">
+
 
 
                     </div>
@@ -242,9 +259,9 @@
 
                             </p>
                         </div>
-                        <div class="top-works__fondoImg">
-                            <img src="./img/series/march.jpg" alt="" class="top-works__imagen">
-                        </div>
+
+                        <img src="./img/series/march.jpg" alt="" class="top-works__imagen">
+
                     </div>
                     <div class="top-works__informacionSerie">
                         <div class="top-works__txt">
@@ -253,10 +270,18 @@
                             </div>
 
                             <p class="top-works__descrip">
-                                     Shintarou Kisaragi is forced to leave his room for the first time in two years. While arguing with the cyber girl Ene who lives in his computer, Shintarou Kisaragi accidentally spills soda all over his keyboard. Though they try to find a replacement online, most stores are closed due to the Obon festival, leaving them with no other choice but to visit the local department store.
-                                     <br>
-                                     <br>
-                                    Luckily, a group of teenagers with mysterious eye powers, who call themselves the "Mekakushi Dan," assist Shintarou in resolving the situation. As a result, he is forced to join their group, along with Ene. Their abilities seem to be like pieces of a puzzle, connecting one another, and as each member's past is unveiled, the secret that ties them together is slowly brought to light.
+                                Shintarou Kisaragi is forced to leave his room for the first time in two years. While
+                                arguing with the cyber girl Ene who lives in his computer, Shintarou Kisaragi
+                                accidentally spills soda all over his keyboard. Though they try to find a replacement
+                                online, most stores are closed due to the Obon festival, leaving them with no other
+                                choice but to visit the local department store.
+                                <br>
+                                <br>
+                                Luckily, a group of teenagers with mysterious eye powers, who call themselves the
+                                "Mekakushi Dan," assist Shintarou in resolving the situation. As a result, he is forced
+                                to join their group, along with Ene. Their abilities seem to be like pieces of a
+                                puzzle, connecting one another, and as each member's past is unveiled, the secret that
+                                ties them together is slowly brought to light.
                                 <br>
                                 <br>
                                 <b>Director:</b> Akiyuki Shinbou, Yuki Yase.
@@ -264,9 +289,9 @@
 
                             </p>
                         </div>
-                        <div class="top-works__fondoImg">
-                            <img src="./img/series/mekaku.jpg" alt="" class="top-works__imagen">
-                        </div>
+
+                        <img src="./img/series/mekaku.jpg" alt="" class="top-works__imagen">
+
                     </div>
 
 
@@ -283,20 +308,23 @@
                 <div class="contact-us__title">
                     <h1 class="contact-us__titulo">Contact Us</h1>
                 </div>
-                <img class="contact-us__img" src="./img/contact.png" alt="">
 
-                <div class="contact-us__form">
-                    <div class="contact-us__content">
-                        <div class="contact-us__write-email">
-                            <p class="contact-us__email">Email</p>
-                            <input class="contact-us__espacio-email" type="email" name="" id="">
+                <div class="contact-us__write">
+                    <img class="contact-us__img" src="./img/contact.png" alt="">
 
+                    <div class="contact-us__form">
+                        <div class="contact-us__content">
+                            <div class="contact-us__write-email">
+                                <p class="contact-us__email">Email</p>
+                                <input class="contact-us__espacio-email" type="email" name="" id="">
+
+                            </div>
+                            <div class="contact-us__message">
+                                <p class="contact-us__msg">Message</p>
+                                <input class="contact-us__espacio-msg" type="text">
+                            </div>
+                            <a href="#" class="contact-us__btn">Send</a>
                         </div>
-                        <div class="contact-us__message">
-                            <p class="contact-us__msg">Message</p>
-                            <input class="contact-us__espacio-msg" type="text">
-                        </div>
-                        <a href="#" class="contact-us__btn">Send</a>
                     </div>
                 </div>
             </div>

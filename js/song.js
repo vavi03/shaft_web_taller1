@@ -60,11 +60,12 @@ var visualizer = function (p) {
         
     };
 
-
+    
     p.changePlay = function () {
         if (song != null) {
             if (song.isPlaying()) {
                 song.pause();
+
             } else {
                 song.loop();
                 console.log("play");

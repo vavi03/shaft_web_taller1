@@ -85,10 +85,15 @@ function paginaCargada() {
   var arrayStop= document.querySelectorAll('.top-works__stop');
   var mySong;
 
+
 function onClickListeners(index){
   if(mySong != null){
     var btnPlay = arrayPlay[index];
     btnPlay.addEventListener('click', mySong.changePlay);
+
+    
+   
+
   
     var btnStop = arrayStop[index];
     btnStop.addEventListener('click', mySong.stop);

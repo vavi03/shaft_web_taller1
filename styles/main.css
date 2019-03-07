@@ -954,10 +954,6 @@
           align-items: center;
 }
 
-.top-works__botones .top-works__play:before {
-  background: #BFEC4A;
-}
-
 .top-works__botones .top-works__stop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -975,12 +971,14 @@
   cursor: pointer;
 }
 
-.top-works__botones .top-works__stop:before {
-  background: #BFEC4A;
-}
-
 .top-works__imgBtn {
   width: 15px;
+  -webkit-transition: .1s all ease-in-out;
+  transition: .1s all ease-in-out;
+}
+
+.top-works__imgBtn:hover {
+  width: 20px;
 }
 
 .top-works__content {
@@ -1118,7 +1116,7 @@
 }
 
 .top-works__gallery {
-  width: 266px;
+  width: 40%;
   height: 400px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -1137,11 +1135,6 @@
 }
 
 .top-works__wrapper {
-  width: 100%;
-  height: 100%;
-}
-
-.top-works__imagen {
   width: 100%;
   height: 100%;
 }
@@ -1242,6 +1235,7 @@
 .contact-us__img {
   width: 180px;
   height: 252px;
+  margin-right: 10px;
 }
 
 .contact-us__form {
@@ -1447,6 +1441,58 @@
   }
   .events__txt {
     width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .landing__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 500px;
+  }
+  .landing__txt {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 30%;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing__titulo {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .landing__shop {
+    margin-left: 60px;
+  }
+  .landing__name {
+    margin-bottom: 0;
+  }
+  .landing__btn {
+    margin-left: 20px;
+  }
+  .landing__img {
+    margin-top: 10px;
+    margin-left: 0;
+    height: 60%;
+  }
+  .landing__img__2__1 {
+    margin-bottom: 15px;
+    height: 128.84px;
+  }
+  .landing__img__2__2 {
+    height: 128.84px;
+  }
+  .landing__img__1 {
+    height: 275.57px;
+  }
+  .top-works__descrip {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

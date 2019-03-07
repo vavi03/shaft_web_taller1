@@ -136,8 +136,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -155,6 +153,24 @@
   font-size: 24px;
   margin-bottom: 30px;
   color: #898787;
+}
+
+.landing__shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .landing__name {
@@ -1366,115 +1382,42 @@
   color: #898787;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .landing__content {
-    position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    background: #fafafa;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 50px;
-    width: 70%;
-    height: 450px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    height: 500px;
   }
   .landing__txt {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 30%;
+    width: 80%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .landing__titulo {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
-    color: #898787;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .landing__shop {
+    margin-left: 60px;
   }
   .landing__name {
-    font-family: "Nunito", sans-serif;
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
-    color: #2d2d2d;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
   .landing__btn {
-    font-family: "Montserrat", sans-serif;
-    color: #2d2d2d;
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-    background-color: #BFEC4A;
-    padding: 6px 10px;
-    -webkit-transition: .1s all ease-in-out;
-    transition: .1s all ease-in-out;
-  }
-  .landing__btn:hover {
-    background-color: #e0f6a6;
+    margin-left: 20px;
   }
   .landing__img {
-    margin-left: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .landing__img__2 {
-    margin-left: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-top: 10px;
+    margin-left: 0;
+    height: 60%;
   }
   .landing__img__2__1 {
     margin-bottom: 15px;
@@ -1487,7 +1430,7 @@
     height: 275.57px;
   }
   .top-works__descrip {
-    font-size: 10px;
+    font-size: 9px;
   }
   .events__contEventos {
     height: 600px;

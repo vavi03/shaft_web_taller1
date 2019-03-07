@@ -117,11 +117,11 @@ sans-serif;
     &__txt {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+       
         justify-content: center;
         align-content: center;
         align-items: center;
-
+        
     }
 
     &__titulo {
@@ -132,6 +132,14 @@ sans-serif;
         margin-bottom: 30px;
         color: $grayColor;
 
+    }
+
+    &__shop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     &__name {
@@ -1120,89 +1128,48 @@ sans-serif;
 
 }
 
-@media (max-width:1000px) {
+@media (max-width:900px) {
 
     .landing{
-        &__content {
-           // margin-top: 450px;
-            position: absolute;
+        &__content {    
             flex-direction: column-reverse;
-            background: $whiteColor;
-            display: flex;
-            margin-top: 50px;
-            width: $margen;
-            height: 450px;
-            flex-wrap: wrap;
+            height: 500px;
+    
+        }
+    
+        &__txt {        
+            flex-direction: row;
+            height:30%;
+      width:80%;
+
             justify-content: center;
-            align-content: center;
-            align-items: center;
-            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
-    
-    
         }
     
-        &__txt {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-    
+        &__titulo {      
+            font-size: 20px;
+            margin-bottom: 0;
         }
-    
-        &__titulo {
-            font-family: $secondFont;
-            font-weight: 300;
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 30px;
-            color: $grayColor;
-    
+        &__shop{
+            margin-left:60px;
         }
+      
     
         &__name {
-            font-family: $thirdFont;
-            margin-top: 10px;
-            font-size: 14px;
-            text-align: center;
-            color: $blackColor;
-            margin-bottom: 30px;
+            margin-bottom: 0;
+        }
+        &__btn{
+            margin-left:20px;
         }
     
-        &__btn {
-            font-family: $secondFont;
-            color: $blackColor;
-            font-size: 14px;
-            letter-spacing: 0.05em;
-    
-            text-decoration: none;
-            background-color: $greenColor;
-    
-            padding: 6px 10px;
-    
-            transition: .1s all ease-in-out;
-    
-            &:hover {
-                background-color: lighten($greenColor, 20%)
-            }
-        }
+       
     
         &__img {
-            margin-left: 100px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
+            margin-top:10px;
+            margin-left: 0;
+           height:60%;
     
             &__2 {
-                margin-left: 15px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-content: center;
-                align-items: center;
+                
     
                 &__1 {
                     margin-bottom: 15px;
@@ -1227,7 +1194,7 @@ sans-serif;
 
     .top-works {
         &__descrip {
-            font-size: 10px;
+            font-size: 9px;
         }
     }
 
